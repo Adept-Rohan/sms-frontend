@@ -54,7 +54,7 @@ const LoginForm = () => {
   const { mutate: login, error } = useLoginMutation({
     onSuccess(data) {
       setLoginData(data);
-      navigate("/home");
+      navigate("/");
     },
   });
 
