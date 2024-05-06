@@ -28,7 +28,7 @@ const User = () => {
   return (
     <div className="p-6">
       <div className="w-[78vw] h-[90vh] flex-shrink-0 p-2 bg-[#FFF] rounded-lg">
-        <TableHeading title="Users" />
+        <TableHeading title="Users" isSearchDisable={false} />
         <Table
           columns={columns as never}
           data={[

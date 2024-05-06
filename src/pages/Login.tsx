@@ -23,7 +23,7 @@ const Login = () => {
             />
           </span>
           <span className="text-blue-500 font-quicksand font-semibold text-2xl">
-            Patan Multiple Campus
+            Namuna Boys Hostel
           </span>
         </div>
         <LoginForm />
