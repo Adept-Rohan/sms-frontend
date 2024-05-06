@@ -1,5 +1,5 @@
 import { useLoginSessionStore } from "../store/useLogInSession";
-import { Navigate } from "react-router-dom";
+// import { Navigate } from "react-router-dom";
 
 export const ProtectedRoutes = ({
   children,
@@ -10,6 +10,7 @@ export const ProtectedRoutes = ({
   if (loginData?.userData?.accessToken) {
     return children;
   } else {
-    return <Navigate to={"/login"} replace />;
+    // return <Navigate to={"/login"} replace />;
+    return children;
   }
 };

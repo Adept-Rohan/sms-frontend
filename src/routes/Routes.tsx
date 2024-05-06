@@ -5,7 +5,7 @@ import { Layout } from "../base-layout/layout/Layout";
 import Home from "../pages/Home";
 import Department from "../pages/Department";
 import User from "../pages/User";
-import Notice from "../pages/Notice";
+import Floor from "../pages/Floor";
 
 const router = createBrowserRouter([
   {
@@ -33,8 +33,8 @@ const router = createBrowserRouter([
         element: <User />,
       },
       {
-        path: "/notice",
-        element: <Notice />,
+        path: "/floor",
+        element: <Floor />,
       },
     ],
   },
