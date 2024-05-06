@@ -31,8 +31,8 @@ export const SIDE_BAR_ITEMS: SideBarItem[] = [
   },
   {
     id: 4,
-    title: "Notice",
+    title: "Floor",
     icons: <NoticeIcon />,
-    to: "/notice",
+    to: "/floor",
   },
 ] as const;

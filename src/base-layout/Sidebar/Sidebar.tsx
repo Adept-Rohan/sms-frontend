@@ -7,8 +7,8 @@ export const Sidebar = () => {
       <div className="w-80">
         <div className="bg-blue-200 flex items-center  space-x-4 p-3 pl-4 pr-14">
           <img className="w-12 h-12" src="src/assets/mainlogo.png" alt="Logo" />
-          <span className="text-blue-500 font-inter font-semibold text-lg">
-            Patan Campus
+          <span className="text-blue-500 font-inter font-semibold text-sm">
+            Namuna Boys Hostel
           </span>
         </div>
         <div className="flex flex-col w-223 h-807 p-8  pb-511 items-start gap-9 flex-shrink-0 bg-[#25A6F2] h-[calc(100vh-72px)]">
